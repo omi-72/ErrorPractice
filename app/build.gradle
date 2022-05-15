@@ -6,6 +6,10 @@ apply plugin: 'androidx.navigation.safeargs'
 android {
     compileSdk 32
 
+    buildFeatures{
+        dataBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.quizactivity"
         minSdk 21
