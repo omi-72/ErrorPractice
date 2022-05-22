@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import com.example.android.navigation.databinding.FragmentGameBinding
 import com.example.quizactivity.databinding.FragmentGameBinding
 
 class GameFragment : Fragment() {
@@ -57,7 +56,7 @@ class GameFragment : Fragment() {
         randomizeQuestions()
 
         // Bind this fragment class to the layout
-        binding.game = this
+      binding.game=this
 
         // Set the onClickListener for the submitButton
         binding.submitButton.setOnClickListener @Suppress("UNUSED_ANONYMOUS_PARAMETER")
