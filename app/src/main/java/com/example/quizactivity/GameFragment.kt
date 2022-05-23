@@ -57,7 +57,6 @@ class GameFragment : Fragment() {
         randomizeQuestions()
 
         // Bind this fragment class to the layout
-        binding.game = this
 
         // Set the onClickListener for the submitButton
         binding.submitButton.setOnClickListener @Suppress("UNUSED_ANONYMOUS_PARAMETER")
